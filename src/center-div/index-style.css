@@ -1,23 +1,13 @@
-section {
-  margin: 0 auto;
-}
-
 .flex {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center; /* Center items against cross-axis (vertical in this example) */
-  justify-content: center; /* Center items against main-axis (horizontal in this example) */
-  align-content: center; /* Center contents */
-  gap: 2%; /* Add gap between items */
-
+  align-items: center;
+  justify-content: center;
   background-color: #2a9d8f;
-  height: 800px;
-  width: 800px;
+  height: 400px;
 }
 
 .centered {
   width: 200px;
-  min-width: 200px;
   height: 200px;
   border: 1px solid #e9c46a;
   border-radius: 5px;
