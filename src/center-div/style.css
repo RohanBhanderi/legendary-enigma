@@ -7,13 +7,16 @@
 }
 
 .centered {
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 200px;
+  height: 200px;
   border: 1px solid #e9c46a;
   border-radius: 5px;
   padding: 5px;
   background-color: #264653;
   color: antiquewhite;
   text-align: center;
+}
+
+.centered span {
+  font: 5vw Brush Script MT, Copperplate, Arial;
 }
