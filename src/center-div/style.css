@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2a9d8f;
+  height: 400px;
+}
+
+.centered {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border: 1px solid #e9c46a;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #264653;
+  color: antiquewhite;
+  text-align: center;
+}
