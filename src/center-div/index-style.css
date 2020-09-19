@@ -1,0 +1,32 @@
+section {
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center; /* Center items against cross-axis (vertical in this example) */
+  justify-content: center; /* Center items against main-axis (horizontal in this example) */
+  align-content: center; /* Center contents */
+  gap: 2%; /* Add gap between items */
+
+  background-color: #2a9d8f;
+  height: 800px;
+  width: 800px;
+}
+
+.centered {
+  width: 200px;
+  min-width: 200px;
+  height: 200px;
+  border: 1px solid #e9c46a;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #264653;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.centered span {
+  font: 2em Brush Script MT, Copperplate, Arial;
+}
