@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between; /* this keeps both Org name and side items at left and right end of the nav bar */
   align-items: center;
+  
   padding: 1rem;
   background: blueviolet;
   color: whitesmoke;
