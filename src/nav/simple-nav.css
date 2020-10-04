@@ -1,0 +1,27 @@
+* {
+  /* reset browser default styles */
+  margin: 0;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: blueviolet;
+  color: whitesmoke;
+}
+
+.org-container {
+  font: 2em Brush Script MT, Copperplate, Arial;
+}
+
+.side-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-header-container div {
+  padding: 5px;
+}
